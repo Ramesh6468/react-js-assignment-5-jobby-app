@@ -1,0 +1,46 @@
+.similarJobItemCard {
+  background-color: #272727;
+  margin: 20px;
+  list-style-type: none;
+  border-radius: 20px;
+  padding: 20px;
+  width: 40%;
+}
+.topCard3 {
+  display: flex;
+  align-items: center;
+}
+.titleCard3 {
+  margin-left: 30px;
+}
+.title3 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 23px;
+}
+.bottomcard {
+  display: flex;
+  justify-content: space-around;
+}
+.locationcard3 {
+  display: flex;
+  align-items: center;
+}
+.typeCard3 {
+  display: flex;
+  align-items: center;
+}
+.para4 {
+  color: #ffffff;
+
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .similarJobItemCard {
+    width: 84%;
+  }
+  .title3 {
+    font-size: 20px;
+  }
+}

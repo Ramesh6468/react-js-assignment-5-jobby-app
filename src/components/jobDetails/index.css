@@ -1,0 +1,160 @@
+.jobCard {
+  background-color: #121212;
+  height: 100%;
+  padding-top: 40px;
+}
+.jobDetailsCard {
+  background-color: #272727;
+  margin: 50px;
+  border-radius: 20px;
+  padding: 20px;
+}
+.topCard1 {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+}
+.logo2 {
+  height: 100px;
+  margin-top: 30px;
+}
+.title3 {
+  color: #ffffff;
+  font-weight: bold;
+}
+.headingCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+.ratingCard {
+  display: flex;
+  align-items: center;
+}
+.locationCard {
+  display: flex;
+
+  margin-left: 30px;
+}
+.card2 {
+  display: flex;
+}
+.salary {
+  margin-right: 20px;
+}
+.visitCard {
+  display: flex;
+  justify-content: space-between;
+}
+.link1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.arrowIcon {
+  color: #6366f1;
+}
+.visitImage {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.descriptionCard {
+  margin-left: 30px;
+}
+.skillCard {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.skillTitle {
+  color: #ffffff;
+  font-weight: bold;
+}
+.skillContainer {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.skillImage {
+  height: 100px;
+}
+.skillItem {
+  color: #ffffff;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+}
+.lifeCard {
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.lifeTitle {
+  color: #ffffff;
+  font-weight: bold;
+}
+.lifeCard1 {
+  display: flex;
+  justify-content: space-between;
+}
+.lifeImage {
+  border-radius: 20px;
+}
+.similarJobList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.bgContainer3 {
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.failureCard1 {
+  background-color: #121212;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error {
+  color: #ffffff;
+  font-weight: bold;
+}
+.errorMsg {
+  color: #475569;
+  font-weight: bold;
+}
+.list {
+  list-style-type: none;
+}
+@media screen and (max-width: 768px) {
+  .jobCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .lifeCard1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .skillTitle {
+    font-size: 20px;
+  }
+  .lifeTitle {
+    font-size: 20px;
+  }
+  .similarJobList {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}

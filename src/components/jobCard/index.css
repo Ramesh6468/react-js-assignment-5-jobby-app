@@ -1,0 +1,94 @@
+.jobCardContainer {
+  background-color: #475569;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+.top1 {
+  display: flex;
+  align-items: center;
+}
+.starCard {
+  display: flex;
+  align-items: center;
+}
+.nameCard {
+  margin-left: 20px;
+}
+.role1 {
+  color: #ffffff;
+  font-weight: bold;
+}
+.starIcon {
+  color: #fbbf24;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.rating {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+}
+.locationCard {
+  display: flex;
+  justify-content: space-between;
+}
+.salaryCard {
+  display: flex;
+}
+.location1 {
+  display: flex;
+  align-items: center;
+}
+.locationIcon {
+  color: #ffffff;
+  font-size: 20px;
+}
+.location {
+  color: #ffffff;
+  margin-left: 3px;
+}
+.typeCard {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.bagIcon {
+  color: #ffffff;
+  font-size: 20px;
+}
+.type {
+  color: #ffffff;
+  margin-left: 3px;
+}
+.salary {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 25px;
+}
+.description {
+  color: #ffffff;
+  font-weight: bold;
+}
+.para2 {
+  color: #ffffff;
+  font-family: roboto;
+}
+
+@media screen and (max-width: 768px) {
+  .jobCardContainer {
+    width: 80%;
+  }
+  .logo1{
+height: 100px;      
+  }
+  .role1 {
+      font-size: 20px;
+  }
+  .salary {
+      font-size: 15px;
+  }
+  .description {
+      font-size: 20px;     
+  }
+}

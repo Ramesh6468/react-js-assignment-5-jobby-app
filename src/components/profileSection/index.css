@@ -1,0 +1,25 @@
+.profileSection {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  border-radius: 40px;
+}
+.name {
+  color: #6366f1;
+  font-weight: bold;
+}
+.role {
+  color: #2c364c;
+}
+
+@media screen and (max-width: 768px) {
+  .profileSection {
+    width: 100%;  
+    padding: 10px;
+  }
+}
