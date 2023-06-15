@@ -101,6 +101,9 @@ class JobDetails extends Component {
         apiStatus: initialApiStatus.success,
       })
     }
+    else {
+      this.setState({ apiStatus : initialApiStatus.failure)}
+      }
   }
 
   getSuccessView = () => {
