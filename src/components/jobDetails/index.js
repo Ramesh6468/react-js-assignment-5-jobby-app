@@ -102,7 +102,7 @@ class JobDetails extends Component {
       })
     }
     else {
-      this.setState({ apiStatus : initialApiStatus.failure)}
+      this.setState({ apiStatus : initialApiStatus.failure})
       }
   }
 
